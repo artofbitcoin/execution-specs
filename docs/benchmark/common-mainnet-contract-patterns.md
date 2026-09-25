@@ -21,6 +21,7 @@ These are execution-pattern categories, not claims that any particular deployed 
 
 Each proposed case should carry a small evidence record next to its test or fixture:
 
+```yaml
 pattern: erc20-transfer
 source: mainnet-trace
 chain: ethereum
@@ -30,6 +31,7 @@ contracts: <sample size>
 selection: <query or reproducible procedure>
 expected_surface: [SLOAD, SSTORE, LOG]
 privacy: public execution data only
+```
 
 The measured range and sample size are intentionally placeholders until a contributor supplies the measurement. This prevents an unverified frequency statement from becoming part of the specification repository.
 
